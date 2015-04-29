@@ -8,7 +8,7 @@ permissions:
      pattern: "**"
      owner: root
      group: www
-     mode: 755
+     mode: 644
      type:
        - file
 hooks:
