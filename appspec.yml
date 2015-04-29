@@ -3,14 +3,6 @@ os: linux
 files:
    - source: /
      destination: /var/www/html
-permissions:
-   - object: /var/www/html
-     pattern: "**"
-     owner: ubuntu
-     group: www
-     mode: 644
-     type:
-       - file
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
